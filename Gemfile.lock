@@ -20,6 +20,9 @@ GEM
       rack (>= 3.0.0, < 4)
     rack-session (2.0.0)
       rack (>= 3.0.0)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
     ruby2_keywords (0.0.5)
     sinatra (4.0.0)
       mustermann (~> 3.0)
@@ -29,6 +32,7 @@ GEM
       tilt (~> 2.0)
     tilt (2.4.0)
     timeout (0.4.1)
+    webrick (1.8.2)
 
 PLATFORMS
   x64-mingw-ucrt
@@ -38,7 +42,7 @@ DEPENDENCIES
   net-imap
   net-pop
   net-smtp
-  rack
+  rackup
   sinatra (>= 4.0)
 
 RUBY VERSION
