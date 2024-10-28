@@ -3,6 +3,11 @@ ruby '3.3.4'
 
 gem 'sinatra', '>= 4.0'
 gem 'sinatra-flash', '0.3.0'
+gem 'net-smtp'
+gem 'net-pop'
+gem 'net-imap'
+gem 'rackup'
+ruby '3.3.4'
 
 group :development, :test do
   gem 'cucumber', '2.0.0'
