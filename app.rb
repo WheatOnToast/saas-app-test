@@ -24,12 +24,6 @@ class WordGuesserApp < Sinatra::Base
   get '/new' do
     erb :new
   end
-  
-  #new code
-  post '/new' do
-    redirect '/create'  # Redirect to the create
-  end
-  #===
 
   post '/create' do
     # NOTE: don't change next line - it's needed by autograder!
