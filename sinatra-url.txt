@@ -1,0 +1,1 @@
+echo 'https://saas-app-test-252a28e3dee0.herokuapp.com/new' > sinatra-url.txt
