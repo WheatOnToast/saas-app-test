@@ -38,7 +38,8 @@ DEPENDENCIES
   net-imap
   net-pop
   net-smtp
-  sinatra (>= 1.4)
+  rack
+  sinatra (>= 4.0)
 
 RUBY VERSION
    ruby 3.3.4p94
